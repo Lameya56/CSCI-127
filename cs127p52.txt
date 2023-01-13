@@ -1,0 +1,11 @@
+#Name:  Lameya Mostafa
+#Email: Lameya.mostafa18@myhunter.cuny.edu
+#Date:  November29,2022
+#This program clones git repo and works with directories
+
+git clone https://github.com/HunterCSci127/CSci127.git
+cd CSci127
+mkdir pictures projects
+mv averageImage.py projects
+mv *.png pictures
+ls | grep *.py -c
